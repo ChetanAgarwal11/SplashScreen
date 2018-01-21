@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.splashscreen.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/tvclick"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Upload Image"
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/tvlong"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Long press to get Menu "
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>
